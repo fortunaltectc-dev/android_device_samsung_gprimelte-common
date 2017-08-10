@@ -19,7 +19,7 @@
 set -e
 
 # Required!
-export DEVICES="fortuna3g fortunave3g fortunalte fortunalteub gprimelte gprimeltexx gprimeltespr gprimeltetfnvzw gprimeltezt gprimeltectc"
+export DEVICES="fortuna3g fortunave3g fortunalte fortunalteub gprimelte gprimeltexx gprimeltespr gprimeltetfnvzw gprimeltezt gprimeltectc gprimeltezm gprimeltezn"
 export DEVICE_COMMON=gprimelte-common
 export BOARD_COMMON=msm8916-common
 export VENDOR=samsung

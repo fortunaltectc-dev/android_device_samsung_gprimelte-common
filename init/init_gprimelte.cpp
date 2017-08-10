@@ -132,6 +132,22 @@ void init_target_properties(void)
 		network_type=LTE_DEVICE;
 		version_release = (char *)"4.4.4";
 	}
+	else if (bootloader.find("G5308W") == 0) {
+		build_id = (char *)"KTU84P";
+		device = (char *)"fortunaltezm";
+		model = (char *)"SM-G5308W";
+		name = (char *)"fortunaltezm";
+		network_type=LTE_DEVICE;
+		version_release = (char *)"4.4.4";
+	}
+	else if (bootloader.find("G5306W") == 0) {
+		build_id = (char *)"KTU84P";
+		device = (char *)"fortunaltezn";
+		model = (char *)"SM-G5306W";
+		name = (char *)"fortunaltezn";
+		network_type=LTE_DEVICE;
+		version_release = (char *)"4.4.4";
+	}
 	else {
 		return;
 	}
